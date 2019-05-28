@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chahuilin/spring-cloud-demo.git
+          #如果我们的Git仓库需要权限访问，那么可以通过配置下面的两个属性来实现
+          username:
+          password:
+server:
+  port: 1201
