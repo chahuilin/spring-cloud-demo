@@ -13,3 +13,8 @@ eureka的服务提供方
 
 eureka的服务消费者,Spring Cloud Feign是一套基于Netflix Feign实现的声明式服务调用客户端.
 由于Feign是基于Ribbon实现的，所以它自带了客户端负载均衡功能，也可以通过Ribbon的IRule进行策略扩展。
+
+# eureka-consumer-ribbon-hystrix
+
+服务容错保护（Hystrix服务降级）
+
