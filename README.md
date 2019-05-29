@@ -18,3 +18,10 @@ eureka的服务消费者,Spring Cloud Feign是一套基于Netflix Feign实现的
 
 服务容错保护（Hystrix服务降级）
 
+# hystrix-dashboard
+
+Hystrix监控面板
+
+访问： http://localhost:1301/hystrix
+填入： http://localhost:2102/actuator/hystrix.stream，去监控节点
+
