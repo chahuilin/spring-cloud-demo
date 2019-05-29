@@ -16,7 +16,7 @@ eureka的服务消费者,Spring Cloud Feign是一套基于Netflix Feign实现的
 
 # eureka-consumer-ribbon-hystrix
 
-服务容错保护（Hystrix服务降级）
+服务容错保护（Hystrix服务降级、依赖隔离、断路器）
 
 # hystrix-dashboard
 
