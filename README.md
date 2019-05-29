@@ -26,3 +26,8 @@ Hystrix监控面板
 
 填入： http://localhost:2102/actuator/hystrix.stream，去监控节点
 
+# 服务网关
+
+访问：http://localhost:1101/eureka-consumer-ribbon-hystrix/consumer
+
+该请求将最终被路由到eureka-consumer-ribbon-hystrix的/consumer接口上
